@@ -7,6 +7,7 @@ volumes:
 services:
   db:
     image: postgres:13.2
+    restart: always
     volumes:
       - backend_data:/var/lib/postgresql/data/
     env_file:

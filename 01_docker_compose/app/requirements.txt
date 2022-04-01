@@ -7,6 +7,12 @@ django-split-settings==1.1.0; python_version >= "3.6" and python_version < "4.0"
 django==3.2; python_version >= "3.6" \
     --hash=sha256:0604e84c4fb698a5e53e5857b5aea945b2f19a18f25f10b8748dbdf935788927 \
     --hash=sha256:21f0f9643722675976004eb683c55d33c05486f94506672df3d6a141546f389d
+djangorestframework==3.13.1; python_version >= "3.6" \
+    --hash=sha256:24c4bf58ed7e85d1fe4ba250ab2da926d263cd57d64b03e8dcef0ac683f8b1aa \
+    --hash=sha256:0c33407ce23acc68eca2a6e46424b008c9c02eceb8cf18581921d0092bc1f2ee
+faker==13.3.1; python_version >= "3.6" \
+    --hash=sha256:c88c8b5ee9376a242deca8fe829f9a3215ffa43c31da6f66d9594531fb344453 \
+    --hash=sha256:fa060e331ffffb57cfa4c07f95d54911e339984ed72596ba6a9e7b6fa569d799
 gunicorn==20.1.0; python_version >= "3.5" \
     --hash=sha256:9dcc4547dbb1cb284accfb15ab5667a0e5d1881cc443e0677b4882a4067a807e \
     --hash=sha256:e0a968b5ba15f8a328fdfd7ab1fcb5af4470c28aaf7e55df02a99bc13138e6e8

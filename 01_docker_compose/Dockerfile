@@ -1,5 +1,6 @@
-FROM python:3.10
+FROM python:3.10.4-slim-buster
 WORKDIR /code
-COPY ./app .
+COPY ./app/requirements.txt .
 RUN pip install -r requirements.txt
-CMD gunicorn docker_test.wsgi:application --bind 0.0.0.0:8000
+COPY ./app .
+CMD gunicorn --workers=2 config.wsgi:application --bind 0.0.0.0:8000
